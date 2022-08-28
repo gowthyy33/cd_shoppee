@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+
+body {
+    background-color: lightblue;
+    background-attachment: fixed;
+    
+}
+.header li a:hover,
+.header li a.active { 
+    color: #DD7033;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.mainFrame{
+    margin: 30px;
+    background-color: white;
+    background-size: contain;
+    border-radius: 20px;
+    height: 90vh;
+    
+}
+.header{
+    position: sticky;
+    max-height: 70px;
+    
+}
+
+.header a img{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    position: absolute;
+    top: 8px;
+    
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header a{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-right: 50px;
+    font-size: 25px; 
+}
+
+
+
+/*------------search bar-----------*/
+.bar{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.bar-cont {
+    
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.bar #sort{
+    border: none;
+}
+
+.bar #search{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bar #filter:focus{
+    border: none;
+    outline: none;
+    border-right: 1px solid gray;
+}
+
+.bar #sort:focus{
+    border: none;
+    outline: none;
+}
+
+.bar #search:focus{
+    border: none;
+    outline: none;
+    border-right: 1px solid gray;
+}
+.cart-icon{
+    height: 60px;
+    width: 60px;
+}
+
+.cart-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+#sort,
+#filter,
+#search {
+    height: 50px;
+    width: 400px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-right: 1px solid gray;
+}
+
+.bar label {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin: 10px;
+    margin-top: 15px;
+
+}
+.bar option{
+    font-size: larger;
+}
+
+.bar{
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+/*-------shop---------------*/
+.product .p{
+    margin-top: -10px;
+}
+.product .p p{
+    display: inline;
+    margin-right: 27px;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.product{
+    box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.3);
+    
+    margin: 30px;
+    margin-left: 50px;
+    max-width:200px;
+    height: 260px;
+    border-radius: 25px;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-top: 2px;
+}
+
+.product .product-pic img{
+    width: 200px;
+    height: 130px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.product .product-details{
+    font-size: larger;
+    text-align: center;
+    margin-top: -25px;
+    
+}
+
+
+
+.product .product-btns{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.product .product-btns .add-cart{
+
+    margin-right: 20px;
+}
+
+.product .product-btns .add-cart, .buy-now{
+    font-size: 14px;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.product .product-btns .add-cart {
+    border: 1px solid #DD7033;
+    background-color: white;
+    color: #DD7033;
+}
+
+.product .product-btns .buy-now {
+    background-color: #DD7033;
+    color: white;
+    margin-left: 50px;
+}
+
+.p i{
+    color: #fee440;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart .cartAmount{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 60%;
+    background-color:#DD7033;
+    color: white;
+    top:-10px;
+    left:50px;
+
+}
+
+.quantity{
+    margin: 0 10px;
+}
+

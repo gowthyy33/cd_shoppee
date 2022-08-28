@@ -1,0 +1,75 @@
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-color: lightblue;
+    background-attachment: fixed;
+    
+}
+
+.mainframe{
+    margin: 30px;
+    background-color: white;
+    background-size: contain;
+    border-radius: 20px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+.card{
+    margin-top: 100px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 1;
+    align-items: center;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+
+    width: 400px;
+    height: 600px;
+    
+}

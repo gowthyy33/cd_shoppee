@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+
+body {
+    background-color: lightblue;
+    background-attachment: fixed;
+    
+}
+
+.mainFrame{
+    margin: 30px;
+    background-color: white;
+    background-size: contain;
+    border-radius: 20px;
+    height: 90vh;
+    
+}
+.header{
+    position: sticky;
+    max-height: 70px;
+    
+}
+
+.header a img{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    position: absolute;
+    top: 8px;
+    
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.header a{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-right: 50px;
+    font-size: 25px; 
+}
+
+
+.header li a:hover,
+.header li a.active { 
+    color: #DD7033;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+
+
+/**-------bannner-------*/
+/*
+.banner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+    flex-wrap: wrap;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 80px;
+}
+*/
+
+
+
+.banner h1{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.banner h3{
+    margin-bottom: -10px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner .banner-btn{
+    border: none;
+    background-color: #DD7033;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    padding: 10px 40px;
+}
+
+.banner{
+    margin-top: 40px;
+    margin-left:70px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+/*-------------------Featured Products-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+
+
+
+.card-img img{
+    width: fit-content;
+    height: 140px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.card-img .makeup{
+    width: 220px;
+}
+
+.card-img .pendant{
+    width: 202px;
+}
+
+.card-img .rb{
+    width: 200px;
+}
+
+.card{
+    box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+    max-height: 250px;
+    max-width: fit-content;
+    border-radius: 25px;
+    margin: 10px
+}
+
+.card-details h2{
+    margin-top: 1px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-details p{
+    padding-bottom: 10px;
+    font-style: italic;
+    margin-top: -14px;
+    padding-left: 10px;
+    font-size: 18px;
+    color : #DD7033;
+  
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+body {
+  font-family: "Chakra Petch", sans-serif;
+}
+.carousel__wrapper {
+  padding: 20px;
+}
+.carousel__content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.carousel__container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+.carousel__container::-webkit-scrollbar {
+  display: none;
+}
+.carousel__slide {
+  min-width: 90%;
+}
+.card__description {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.card__description img {
+  width: 20px;
+}
+.card__description span {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.card__description span.fire {
+  background-color: orange;
+}
+.card__description span.psychic {
+  background-color: rgb(146, 100, 108);
+}
+.card__description span.electric {
+  background-color: rgb(231, 210, 88);
+}
+.card__description span.rock {
+  background-color: rgb(114, 102, 32);
+}
+.card__description span.grass {
+  background-color: rgb(32, 114, 69);
+}
+
+.card__inner {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 2rem 4rem;
+}
+.card__inner h4 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: rgb(170, 155, 155);
+}
+.card__image img {
+  max-height: 150px;
+  margin-bottom: 1rem;
+}
+.arrow {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: calc(50% - 10px);
+  background-color: rgba(3, 101, 214, 0.664);
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrow i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.arrow.arrow--right {
+  right: 0%;
+}
+.arrow.arrow--left {
+  left: 0%;
+}
+
+@media screen and (min-width: 1180px) {
+  .carousel__wrapper {
+    padding: 50px;
+  }
+  .carousel__slide {
+    min-width: 33.33%;
+    scroll-snap-align: center;
+    position: relative;
+  }
+  .arrow {
+    display: flex;
+  }
+}
+
+.carousel {
+  
+  width: 800px;
+  margin-top: -60px;
+  margin-left: 400px;
+}
+
+
+.container h1{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-left: 650px;
+}
+
+/*----------------Popular Brands----------*/
+
+.popular img{
+  width: 100px;
+  height: 100px;
+}
+
+.popular h1{
+  
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-top: -20px;
+  margin-left: 70px;
+}
+
+
+.product-container{
+  display: flex;
+  gap: 10rem;
+  
+  margin-left: 180px;
+}
+
+
+.product-container .b1{
+  width: 150px;
+}
+
+.product-container .b3{
+  width: 140px;
+}
+.product-container .b4{
+  width: 120px;
+}
+.product-container .b6{
+  width: 140px;
+}
+
+
+.product-container .b7{
+  width: 150px;
+}
+
+.homePic{
+  
+  position: absolute;
+  top: 5vh;
+  left: 157.3vh;
+}
+
+.saleIsLive{
+  position: absolute;
+  top: 40vh;
+  margin-left: 70px;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.live{
+  font-size: 105px;
+  font-weight: bolder;
+  color: red;
+}

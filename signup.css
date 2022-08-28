@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat:wght@300&display=swap');
+
+body {
+    background-color: lightblue;
+    background-attachment: fixed;
+    
+}
+.header li a:hover,
+.header li a.active { 
+    color: #DD7033;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.mainFrame{
+    margin: 30px;
+    background-color: white;
+    background-size: contain;
+    border-radius: 20px;
+    height: 90vh;
+    
+}
+.header{
+    position: sticky;
+    max-height: 70px;
+    
+}
+
+.header a img{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    position: absolute;
+    top: 8px;
+    
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-right: 50px;
+    font-size: 25px; 
+}
+
+
+/*----logon*/
+
+
+.sign-up {
+    outline: none;
+    border: none;
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left:155vh;
+}
+
+
+
+.sign-up h1 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 60px;
+    padding: 0 8px;
+}
+
+
+.sign-up label {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 17px;  
+}
+
+.sign-up #name-box{
+    margin-bottom: 40px;
+}
+
+.sign-up #mail-box{
+    margin-bottom: 40px;
+}
+
+
+
+
+.sign-up input{
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    height: 50px;
+    width: 300px;
+    border : 0.5px solid blue;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 16px;
+    padding: 0 8px;
+
+}
+
+.sign-up input:focus{
+    border : 0.5px solid blue;  
+    border-color: blue;
+    
+}
+
+.sign-up .signUp-btn{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    background-color: #e76f51;
+    color:white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 17px;
+    width: 300px;
+}
+
+. .signup-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.sign-up .signUp-btn{
+    font-family: 'Lato', sans-serif;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #a7c957;
+}
+
+.sign-up .signUp-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.main-img .girl {
+    height: 85vh;
+    width:1100px;
+    position: absolute;
+    top:10px;
+    
+}
